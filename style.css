@@ -24,22 +24,20 @@ body {
 ._navbar {
   background: #000000;
   border: 1px solid rgb(141, 182, 216);
-
   border-radius: 50rem;
+  margin: 10rem;
   margin-top: 10px;
 }
 
 ._navbar ul {
   text-align: center;
   display: inline-flex;
-  margin: 10px;
   padding: 10px;
 }
 
 ._navbar ul li {
-  margin-left: 280px;
+  margin-left: 200px;
   padding-left: 3px;
-  float: right;
 }
 
 ._navbar ul li a {
@@ -59,7 +57,7 @@ body {
   background-color: #04aa6d;
   border-color: #04aa6d;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 50rem;
 }
 
 .content {
@@ -171,4 +169,8 @@ img {
   margin: 40px;
   margin-left: 40px;
   text-align: center;
+}
+
+i {
+  margin-right: 10px;
 }
